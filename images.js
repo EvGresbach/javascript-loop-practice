@@ -22,6 +22,12 @@ $(document).ready(function () {
          The body of the loop should contain the statement:
          addImageToDiv("#while-loop");
         */
+        var countPlusOne = 0
+        while( countPlusOne < (num +1))
+        {
+            addImageToDiv("#while-loop");
+            countPlusOne ++;
+        }
 
 
 
@@ -33,6 +39,11 @@ $(document).ready(function () {
          The body of the loop should contain the statement:
          addImageToDiv("#do-while-loop");
         */
+        var countMinusOne = 0;
+        do {
+            addImageToDiv("#do-while-loop");
+            countMinusOne ++
+        } while(countMinusOne < (num - 1));
 
 
 
@@ -44,7 +55,10 @@ $(document).ready(function () {
          The body of the loop should contain the statement:
          addImageToDiv("#for-loop");
         */
-
+        for (var countExactlyNum = 0; countExactlyNum < num; countExactlyNum ++)
+        {
+            addImageToDiv("#for-loop");
+        }
 
 
 
